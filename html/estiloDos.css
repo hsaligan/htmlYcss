@@ -1,0 +1,52 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+    margin: 25px;
+    background-color: rgb(240,240,240);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Applies to all <h1>...</h1> elements. */
+  h1 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+  
+  /* Applies to all elements with <... class="someclass"> specified. */
+  .someclass { color: red; }
+  
+  /* Applies to the element with <... id="someid"> specified. */
+  #someid { color: green; }
+
+  table.separado {border-collapse: separate;}
+
+  table.colapsado {border-collapse: collapse;}
+  table.sinespacio {
+    border-collapse: separate;}
+  
+  table.conespacio {
+  border-collapse: separate;
+  border-spacing: 30px;}
+  
+  table.diferent {
+  border-collapse: separate;
+  border-spacing: 70px 15px;}
+
+  table {
+    border-collapse: collapse;
+    border-spacing:40px;}
+
+
+  caption {caption-side:bottom;}
+
+  table.hide {border-collapse:separate;
+    empty-cells: hide;
+    
+    }
+    
+    table.show {border-collapse:separate;
+    empty-cells: show;
+    
+    }

@@ -1,0 +1,18 @@
+blockquote[cite] {background: goldenrod;}
+<!-- .verde para utilizar class, para más de 2 -->
+.verde {background: rgb(224, 195, 64);}
+<!-- #encabezado para id=X -->
+#encabezadoUno { background: orangered;
+                  color: whitesmoke;}
+#navegacion { border: turquoise;
+ color: tomato;}
+ <!-- elementos con su estilo-->
+header { background: red; }
+footer { background: yellowgreen; }
+header, footer, nav, aside, article, hgroup {
+    display: block;
+}
+* {
+    text-align: center;
+    color: blue;
+  }

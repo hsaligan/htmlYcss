@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Mi Primera Página</title>
+    <meta charset=”utf-8”/>
+    <meta name="descripcion" content="Esta es mi primer página"/> 
+    <meta name="author" content="HSaliganC"/>
+    <style>
+      blockquote[cite] {background: goldenrod;}
+      <!-- .verde para utilizar class, para más de 2 -->
+      .verde {background: rgb(224, 195, 64);}
+      <!-- #encabezado para id=X -->
+      #encabezadoUno { background: orangered;
+                        color: whitesmoke;}
+      #navegacion { border: turquoise;
+       color: tomato;}
+       <!-- elementos con su estilo-->
+      header { background: red; }
+      footer { background: yellowgreen; }
+    </style>
+  </head>
+  <body>
+    <header id="encabezadoUno">
+      <h1>Mi Primera Página</h1>
+    </header>
+    <nav id="navegacion">
+      <ul>
+        <li>Principal</li>
+        <li>Ayuda</li>
+        <li>Contacto</li>
+      </ul>
+    </nav>
+    <section>
+      <article class="verde">
+        <hgroup>
+          <h1>Título del primer articulo</h1>
+        </hgroup>
+        <time datetime="15-04-2020">Publicado 15/04/2020</time>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <small>Enim impedit vero ex atque dolore </small>sequi ad vel. <span>Nemo laborum aliquid, </span>possimus quasi, velit aperiam assumenda id, <cite>nobis asperiores ratione odio.</cite></p>
+        <footer>
+          <a href="www.misitio.com">Visita mi sitio</a>
+        </footer>
+      </article>
+      <article>
+        <hgroup>
+          <h1>Título del segundo articulo</h1>
+      </hgroup>
+        <p class="verde">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora odit doloribus repudiandae corporis, modi nostrum. Nemo sint natus esse tempora itaque aliquam, exercitationem aliquid, beatae error porro veniam provident?</p>
+        <img src="foto1.jpg"/>
+        <footer>
+          <a href="www.google.com">Visita mi sitio</a>
+        </footer>
+      </article>
+    </section>
+    <aside>
+      <blockquote cite="www.facebook.com">
+        Archivo
+      </blockquote>
+      <blockquote>
+        
+        Acerca de:
+      </blockquote>
+
+    </aside>
+    <footer>
+      Derechos reservados @2020
+    </footer>
+  </body>
+</html>
